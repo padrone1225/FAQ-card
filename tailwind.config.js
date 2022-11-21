@@ -10,6 +10,10 @@ module.exports = {
         "desaturated-blue": "hsl(238, 29%, 16%)",
       },
     },
+    screens: {
+      msm: { max: "640px" },
+      sm: "640px",
+    },
   },
   plugins: [],
 };
